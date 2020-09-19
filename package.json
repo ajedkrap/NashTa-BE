@@ -1,0 +1,36 @@
+{
+  "name": "nashta-be",
+  "version": "1.0.0",
+  "description": "This project consist of backend api for an event todos app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajedkrap/NashTa-BE.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "Dezza Rizqi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajedkrap/NashTa-BE/issues"
+  },
+  "homepage": "https://github.com/ajedkrap/NashTa-BE#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "querystring": "^0.2.0",
+    "uuid": "^8.3.0",
+    "validator": "^13.1.1"
+  }
+}
